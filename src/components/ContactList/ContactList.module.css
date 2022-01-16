@@ -1,0 +1,22 @@
+.list__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.del__btn {
+  margin-left: 10px;
+  padding: 4px;
+
+  color: rgb(243, 223, 238);
+  background-color: rgb(80, 176, 255);
+  border: 1px solid rgb(80, 176, 255);
+  border-radius: 4px;
+}
+
+.del__btn:hover {
+  background-color: rgb(32, 138, 224);
+}
+
+.del__btn:active {
+  background-color: rgb(35, 95, 145);
+  border: 1px solid #130336;
+}
