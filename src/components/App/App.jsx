@@ -53,9 +53,9 @@ class App extends Component {
     });
   };
 
-  filterContacts = e => {
+  filterContacts = ({ currentTarget: { value: filter } }) => {
     this.setState({
-      filter: e.currentTarget.value,
+      filter,
     });
   };
 
